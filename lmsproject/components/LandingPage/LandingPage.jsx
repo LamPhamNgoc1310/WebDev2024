@@ -10,7 +10,7 @@ const LandingPage = () => {
   const navigate = useNavigate();
 
   const handleRedirect = () => {
-    navigate("../Login.jsx");
+    navigate("/course-categories");
   };
 
   return (
